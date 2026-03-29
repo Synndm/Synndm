@@ -8,6 +8,10 @@
 - JavaScript
 - Bootstrap
 - jQuery
+- sass
+- less
+- gulp
+- grunt
 
 ## 📂 Projetos em destaque
 
