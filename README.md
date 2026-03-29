@@ -25,7 +25,7 @@ https://syn-projeto-caluladora-medias.vercel.app/
 https://syn-jquery-galeria-fotos.vercel.app/
 
 ## 🎯 Objetivo
-Conseguir minha primeira oportunidade na área de tecnologia como desenvolvedor front-end ou suporte técnico.
+Conseguir minha primeira oportunidade na área de tecnologia como desenvolvedor front-end.
 
 <!--
 **Synndm/Synndm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
