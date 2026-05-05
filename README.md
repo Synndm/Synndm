@@ -61,7 +61,7 @@ generate:
 permissions:
 contents: write
 
-```
+
 runs-on: ubuntu-latest
 
 steps:
@@ -77,5 +77,4 @@ steps:
       build_dir: dist
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
 
