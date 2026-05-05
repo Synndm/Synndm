@@ -48,4 +48,34 @@
   </a>
 </div>
 
+name: Generate Pac-Man Contribution Graph
+
+on:
+schedule:
+- cron: "0 */12 * * *"
+
+workflow_dispatch:
+
+jobs:
+generate:
+permissions:
+contents: write
+
+```
+runs-on: ubuntu-latest
+
+steps:
+  - name: Generate Pac-Man
+    uses: abozanona/pacman-contribution-graph@main
+    with:
+      github_user_name: Synndm
+
+  - name: Push generated files
+    uses: crazy-max/ghaction-github-pages@v4
+    with:
+      target_branch: output
+      build_dir: dist
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
 
