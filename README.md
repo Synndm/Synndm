@@ -49,10 +49,8 @@
 
 ###
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Synndm/Synndm/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Synndm/Synndm/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Synndm/Synndm/output/pacman-contribution-graph.svg">
-</picture>
+<div>
+  <img style="100%" src="https://capsule-render.vercel.app/api?type=wave&height=115&section=header&reversal=true&text=Follow-me%20:)&fontSize=70&fontColor=f7f1e3&fontAlign=50&fontAlignY=50&stroke=#474787&strokeWidth=1&descSize=20&descAlign=50&descAlignY=50&theme=cobalt"  />
+</div>
 
 ###
