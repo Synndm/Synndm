@@ -1,44 +1,39 @@
 <!-- ================= HEADER ================= -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:003B12,100:00FF41&height=230&section=header&text=Josiel&fontSize=72&fontColor=00FF41&animation=twinkling&fontAlignY=36&desc=%3E_%20Desenvolvedor%20Front-End%20%C2%B7%20Full%20Stack%20em%20forma%C3%A7%C3%A3o&descSize=20&descColor=C9D1D9&descAlignY=58" alt="Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:4C1D95,100:A855F7&height=230&section=header&text=Josiel&fontSize=72&fontColor=C084FC&animation=twinkling&fontAlignY=36&desc=Desenvolvedor%20Front-End%20%C2%B7%20Full%20Stack%20em%20forma%C3%A7%C3%A3o&descSize=20&descColor=C9D1D9&descAlignY=58" alt="Banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00FF41&center=true&vCenter=true&width=650&height=45&lines=%24+whoami;Josiel+%7C+Dev+Front-End;%24+git+commit+-m+%22primeira+vaga+conquistada%22+%F0%9F%8E%89;%24+npm+run+evoluir+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=22&duration=3000&pause=900&color=A855F7&center=true&vCenter=true&width=650&height=45&lines=Ol%C3%A1%2C+eu+sou+o+Josiel+%F0%9F%91%8B;Desenvolvedor+Front-End;Full+Stack+em+forma%C3%A7%C3%A3o;Criando+interfaces+modernas+e+funcionais+%E2%9C%A8" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-![Status](https://img.shields.io/badge/STATUS-PRIMEIRA_VAGA_CONQUISTADA-00FF41?style=for-the-badge&labelColor=0D1117)
+![Status](https://img.shields.io/badge/STATUS-PRIMEIRA_VAGA_CONQUISTADA-A855F7?style=for-the-badge&labelColor=0D1117)
 ![Local](https://img.shields.io/badge/LOCAL-BEL%C3%89M%2C_PA-58A6FF?style=for-the-badge&labelColor=0D1117)
-![Foco](https://img.shields.io/badge/FOCO-FRONT--END-C084FC?style=for-the-badge&labelColor=0D1117)
+![Foco](https://img.shields.io/badge/FOCO-FRONT--END-6366F1?style=for-the-badge&labelColor=0D1117)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/0josielsilva1/)
 [![E-mail](https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:josielsillva7@gmail.com)
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-0D1117?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://portifolio-synndm.vercel.app/)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-0D1117?style=for-the-badge&logo=vercel&logoColor=A855F7)](https://portifolio-synndm.vercel.app/)
 
 </div>
 
 ---
 
-## 🖥️ `$ neofetch`
+## 👨‍💻 Sobre mim
 
-```text
-  josiel@belem
-  ─────────────────────────────────────────
-  Cargo ........ Dev Front-End · Full Stack em formação
-  Faculdade .... GTI · Uniasselvi (2027)
-  Curso ........ Full Stack Java · EBAC
-  Stack ........ React · Next.js · TypeScript · Tailwind
-  Local ........ Belém, PA 🇧🇷
-  Status ....... 🟢 primeira vaga conquistada 🎉
-```
+- 📍 Belém, PA 🇧🇷
+- 💼 Primeira vaga como dev conquistada 🎉
+- 🎓 Gestão da Tecnologia da Informação na Uniasselvi (2027) e Full Stack Java na EBAC
+- ⚛️ Foco atual: React, Next.js, TypeScript e Tailwind
+- 🌱 Sempre aprendendo e construindo projetos novos
 
 ---
 
-## 🛠️ `$ cat stack.json`
+## 🛠️ Tecnologias
 
 <div align="center">
 
@@ -55,18 +50,18 @@
 
 ---
 
-## 📈 `$ ./evolucao.sh`
+## 📈 Evolução nos estudos
 
-```text
-React         ████████░░  80%
-TypeScript    ███████░░░  70%
-Node.js       ██████░░░░  60%
-Java          ████░░░░░░  40%   ← estudando agora
-```
+| Tecnologia | Nível |
+|---|---|
+| ⚛️ React | ████████░░ 80% |
+| 🔷 TypeScript | ███████░░░ 70% |
+| 🟢 Node.js | ██████░░░░ 60% |
+| ☕ Java *(estudando agora)* | ████░░░░░░ 40% |
 
 ---
 
-## 🎯 `$ cat metas-2026.md`
+## 🎯 Metas de 2026
 
 - [x] Colocar um projeto full stack no ar (Pokédex)
 - [x] Publicar meu portfólio online
@@ -76,7 +71,7 @@ Java          ████░░░░░░  40%   ← estudando agora
 
 ---
 
-## 🚀 `$ ls projetos/`
+## 🚀 Projetos em destaque
 
 <table>
   <tr>
@@ -127,7 +122,7 @@ Java          ████░░░░░░  40%   ← estudando agora
 
 ---
 
-## 🐍 `$ ./cobrinha --contribuicoes`
+## 🐍 Contribuições
 
 <div align="center">
   <picture>
@@ -140,24 +135,24 @@ Java          ████░░░░░░  40%   ← estudando agora
 ---
 
 <details>
-<summary><b>📊 <code>$ git stats</code> (clique para abrir)</b></summary>
+<summary><b>📊 Estatísticas do GitHub (clique para abrir)</b></summary>
 <br/>
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Synndm&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&locale=pt-br" alt="Estatísticas" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Synndm&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9&locale=pt-br" alt="Linguagens" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Synndm&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=C9D1D9&locale=pt-br" alt="Estatísticas" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Synndm&layout=compact&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=C9D1D9&locale=pt-br" alt="Linguagens" />
 
-<img src="https://streak-stats.demolab.com?user=Synndm&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&locale=pt_BR" alt="Sequência" />
+<img src="https://streak-stats.demolab.com?user=Synndm&hide_border=true&background=0D1117&ring=A855F7&fire=A855F7&currStreakLabel=A855F7&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&locale=pt_BR" alt="Sequência" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Synndm&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=00FF41&hide_border=true" alt="Gráfico de atividade" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Synndm&bg_color=0D1117&color=A855F7&line=A855F7&point=FFFFFF&area=true&area_color=A855F7&hide_border=true" alt="Gráfico de atividade" />
 
 </div>
 
 </details>
 
 <details>
-<summary><b>🎲 <code>$ man josiel</code> (clique para abrir)</b></summary>
+<summary><b>🎲 Mais sobre mim (clique para abrir)</b></summary>
 <br/>
 
 - 🎓 Cursando **Gestão da Tecnologia da Informação** e **Full Stack Java**
@@ -170,22 +165,20 @@ Java          ████░░░░░░  40%   ← estudando agora
 
 ---
 
-## 📫 `$ ./contato.sh`
+## 📫 Vamos conversar
 
-```bash
-$ ./contato.sh --nome "Josiel" --assunto "tecnologia, projetos e networking"
-> Bora trocar ideia sobre desenvolvimento!
-> LinkedIn: linkedin.com/in/0josielsilva1
-> Portfólio: portifolio-synndm.vercel.app
-> E-mail: josielsillva7@gmail.com
-```
+Bora trocar ideia sobre desenvolvimento, projetos e tecnologia!
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/0josielsilva1/)
+- 🌐 [Portfólio](https://portifolio-synndm.vercel.app/)
+- ✉️ [josielsillva7@gmail.com](mailto:josielsillva7@gmail.com)
 
 <div align="center">
 
-![Visitas](https://komarev.com/ghpvc/?username=Synndm&label=VISITAS&color=00FF41&labelColor=0D1117&style=for-the-badge)
+![Visitas](https://komarev.com/ghpvc/?username=Synndm&label=VISITAS&color=A855F7&labelColor=0D1117&style=for-the-badge)
 
 *Hello! I'm Josiel, a front-end developer from Belém, Brazil. Let's connect!*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:003B12,100:00FF41&height=120&section=footer" alt="Footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:4C1D95,100:A855F7&height=120&section=footer" alt="Footer" />
 
 </div>
