@@ -1,65 +1,82 @@
-<!-- ============ HEADER ============ -->
+<!-- ================= HEADER ================= -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Josiel&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Desenvolvedor%20Full%20Stack%20em%20forma%C3%A7%C3%A3o&descSize=20&descAlignY=58" alt="Banner" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:003B12,100:00FF41&height=230&section=header&text=Josiel&fontSize=72&fontColor=00FF41&animation=twinkling&fontAlignY=36&desc=%3E_%20Desenvolvedor%20Front-End%20%C2%B7%20Full%20Stack%20em%20forma%C3%A7%C3%A3o&descSize=20&descColor=C9D1D9&descAlignY=58" alt="Banner" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=620&height=45&lines=Ol%C3%A1%2C+eu+sou+o+Josiel+%F0%9F%91%8B;Estudante+de+GTI+%7C+Full+Stack+Java;Construindo+projetos+do+front+ao+back-end;Buscando+meu+primeiro+est%C3%A1gio+em+TI+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00FF41&center=true&vCenter=true&width=650&height=45&lines=%24+whoami;Josiel+%7C+Dev+Front-End;%24+git+commit+-m+%22primeira+vaga+conquistada%22+%F0%9F%8E%89;%24+npm+run+evoluir+%F0%9F%9A%80" alt="Typing SVG" />
 </a>
 
-<br/>
+<br/><br/>
 
-![Status](https://img.shields.io/badge/Status-Buscando_vaga-2ea44f?style=for-the-badge)
-![Local](https://img.shields.io/badge/Bel%C3%A9m-PA-0077B5?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Faculdade](https://img.shields.io/badge/GTI-Uniasselvi-8A2BE2?style=for-the-badge)
-![Curso](https://img.shields.io/badge/Full_Stack_Java-EBAC-FF6B35?style=for-the-badge)
+![Status](https://img.shields.io/badge/STATUS-PRIMEIRA_VAGA_CONQUISTADA-00FF41?style=for-the-badge&labelColor=0D1117)
+![Local](https://img.shields.io/badge/LOCAL-BEL%C3%89M%2C_PA-58A6FF?style=for-the-badge&labelColor=0D1117)
+![Foco](https://img.shields.io/badge/FOCO-FRONT--END-C084FC?style=for-the-badge&labelColor=0D1117)
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/0josielsilva1/)
 [![E-mail](https://img.shields.io/badge/E--mail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:josielsillva7@gmail.com)
-[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-111827?style=for-the-badge&logo=vercel&logoColor=white)](portifolio-synndm.vercel.app)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-0D1117?style=for-the-badge&logo=vercel&logoColor=00FF41)](https://portifolio-synndm.vercel.app/)
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre mim
+## 🖥️ `$ neofetch`
 
-```js
-const josiel = {
-  local: "Belém, PA 🇧🇷",
-  formacao: ["GTI - Uniasselvi (previsão 2027)", "Full Stack Java - EBAC"],
-  foco: ["Desenvolvimento Full Stack", "Infraestrutura e suporte de TI"],
-  tambem: "Manutenção de computadores e soluções de TI para pequenos negócios",
-  procurando: "Estágio em tecnologia 🎯",
-};
+```text
+  josiel@belem
+  ─────────────────────────────────────────
+  Cargo ........ Dev Front-End · Full Stack em formação
+  Faculdade .... GTI · Uniasselvi (2027)
+  Curso ........ Full Stack Java · EBAC
+  Stack ........ React · Next.js · TypeScript · Tailwind
+  Local ........ Belém, PA 🇧🇷
+  Status ....... 🟢 primeira vaga conquistada 🎉
 ```
-
-- 🌱 Aprendendo a construir aplicações completas, do React ao back-end
-- 🔭 Explorando ideias de SaaS para pequenos negócios
-- 🤝 Aberto a conversas, feedback e oportunidades
 
 ---
 
-## 🛠️ Stack
+## 🛠️ `$ cat stack.json`
 
 <div align="center">
 
 **Front-end**<br/>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,bootstrap,tailwind,sass,jquery" alt="Front-end" />
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap,sass,jquery&theme=dark" alt="Front-end" />
 
 **Back-end**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,java" alt="Back-end" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,java&theme=dark" alt="Back-end" />
 
 **Ferramentas e deploy**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,figma" alt="Ferramentas" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,gulp,figma&theme=dark" alt="Ferramentas" />
 
 </div>
 
 ---
 
-## 🚀 Projetos em destaque
+## 📈 `$ ./evolucao.sh`
+
+```text
+React         ████████░░  80%
+TypeScript    ███████░░░  70%
+Node.js       ██████░░░░  60%
+Java          ████░░░░░░  40%   ← estudando agora
+```
+
+---
+
+## 🎯 `$ cat metas-2026.md`
+
+- [x] Colocar um projeto full stack no ar (Pokédex)
+- [x] Publicar meu portfólio online
+- [x] Conquistar a primeira vaga como desenvolvedor 🎉
+- [ ] Concluir o curso Full Stack Java
+- [ ] Lançar um projeto SaaS próprio
+
+---
+
+## 🚀 `$ ls projetos/`
 
 <table>
   <tr>
@@ -74,53 +91,101 @@ const josiel = {
       <a href="COLE-AQUI-O-LINK-DA-VERCEL">🔗 Ver online</a> · <a href="https://github.com/Synndm/busca-pokemons">📂 Código</a>
     </td>
     <td width="50%" valign="top">
-      <h3>📅 <a href="https://github.com/Synndm/agenda_pessoal">agenda_pessoal</a></h3>
-      <p>Agenda pessoal com layout responsivo e foco em organização visual.</p>
+      <h3>🍷 <a href="https://github.com/Synndm/restaurante-interface">Restaurante Serliana</a></h3>
+      <p>Interface de restaurante temático inspirada na estética renascentista, responsiva e imersiva.</p>
       <p>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
         <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
       </p>
-      <a href="https://github.com/Synndm/agenda_pessoal">📂 Código</a>
+      <a href="https://restaurante-serliana.vercel.app/">🔗 Ver online</a> · <a href="https://github.com/Synndm/restaurante-interface">📂 Código</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🖼️ <a href="https://github.com/Synndm/jquery-galeria-fotos">jquery-galeria-fotos</a></h3>
-      <p>Galeria de fotos interativa com animações em jQuery.</p>
+      <h3>📍 <a href="https://github.com/Synndm/buscar-endereco">Buscador de Endereço</a></h3>
+      <p>Busca automática de endereço pelo CEP usando a API ViaCEP, com interface simples e responsiva.</p>
       <p>
         <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat-square&logo=sass&logoColor=white" />
         <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" />
       </p>
-      <a href="https://github.com/Synndm/jquery-galeria-fotos">📂 Código</a>
+      <a href="https://synndm.github.io/buscar-endereco/">🔗 Ver online</a> · <a href="https://github.com/Synndm/buscar-endereco">📂 Código</a>
     </td>
     <td width="50%" valign="top">
-      <h3>🧮 <a href="https://github.com/Synndm/projeto_caluladora_medias">calculadora de médias</a></h3>
-      <p>Calculadora de médias com validação de entradas em JavaScript.</p>
+      <h3>🎂 <a href="https://github.com/Synndm/aniversario_synndm">Landing Page de Aniversário</a></h3>
+      <p>Landing page cyberpunk com contagem regressiva em tempo real, animações e design responsivo.</p>
       <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" />
+        <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" />
       </p>
-      <a href="https://github.com/Synndm/projeto_caluladora_medias">📂 Código</a>
+      <a href="https://github.com/Synndm/aniversario_synndm">📂 Código</a>
     </td>
   </tr>
 </table>
 
 ---
 
-<!--
-OPCIONAL: estatísticas do GitHub.
-Só ative quando seu perfil já tiver mais atividade; esses widgets dependem de serviços externos e podem falhar.
+## 🐍 `$ ./cobrinha --contribuicoes`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Synndm&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Synndm&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="170" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Synndm/Synndm/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Synndm/Synndm/output/github-snake.svg" />
+    <img alt="Cobrinha comendo as contribuições" src="https://raw.githubusercontent.com/Synndm/Synndm/output/github-snake-dark.svg" />
+  </picture>
 </div>
--->
+
+---
+
+<details>
+<summary><b>📊 <code>$ git stats</code> (clique para abrir)</b></summary>
+<br/>
 
 <div align="center">
 
-*Hello! I'm Josiel, a Full Stack developer in training from Belém, Brazil, looking for a tech internship. Let's connect!*
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Synndm&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=C9D1D9&locale=pt-br" alt="Estatísticas" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Synndm&layout=compact&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=C9D1D9&locale=pt-br" alt="Linguagens" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=110&section=footer" alt="Footer" />
+<img src="https://streak-stats.demolab.com?user=Synndm&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E&locale=pt_BR" alt="Sequência" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Synndm&bg_color=0D1117&color=00FF41&line=00FF41&point=FFFFFF&area=true&area_color=00FF41&hide_border=true" alt="Gráfico de atividade" />
+
+</div>
+
+</details>
+
+<details>
+<summary><b>🎲 <code>$ man josiel</code> (clique para abrir)</b></summary>
+<br/>
+
+- 🎓 Cursando **Gestão da Tecnologia da Informação** e **Full Stack Java**
+- 💻 Gosto de entender o problema do cliente antes de escrever a primeira linha de código
+- 🛠️ Também atuo com manutenção de computadores, então sei lidar com usuário de verdade
+- 🌎 Baseado em Belém, aberto a conversar sobre oportunidades
+- ☕ Combustível: café e documentação aberta em 10 abas
+
+</details>
+
+---
+
+## 📫 `$ ./contato.sh`
+
+```bash
+$ ./contato.sh --nome "Josiel" --assunto "tecnologia, projetos e networking"
+> Bora trocar ideia sobre desenvolvimento!
+> LinkedIn: linkedin.com/in/0josielsilva1
+> Portfólio: portifolio-synndm.vercel.app
+> E-mail: josielsillva7@gmail.com
+```
+
+<div align="center">
+
+![Visitas](https://komarev.com/ghpvc/?username=Synndm&label=VISITAS&color=00FF41&labelColor=0D1117&style=for-the-badge)
+
+*Hello! I'm Josiel, a front-end developer from Belém, Brazil. Let's connect!*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:003B12,100:00FF41&height=120&section=footer" alt="Footer" />
 
 </div>
