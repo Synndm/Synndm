@@ -32,7 +32,7 @@ const josiel = {
   formacao: ["GTI - Uniasselvi (previsão 2027)", "Full Stack Java - EBAC"],
   foco: ["Desenvolvimento Full Stack", "Infraestrutura e suporte de TI"],
   tambem: "Manutenção de computadores e soluções de TI para pequenos negócios",
-  procurando: "Estágio em tecnologia 🎯",
+  procurando: "Vaga em tecnologia 🎯",
 };
 ```
 
