@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="96" viewBox="0 0 880 96" role="img" aria-label="Vamos conversar?">
+  <style>
+    .serif { font-family: 'Instrument Serif', Georgia, 'Times New Roman', serif; }
+    .fg { fill: #1F2328; } .accent { fill: #8B3DD6; } .rule { stroke: #D1D9E0; }
+    @media (prefers-color-scheme: dark) { .fg { fill: #F0F6FC; } .accent { fill: #C084FC; } .rule { stroke: #30363D; } }
+  </style>
+  <line class="rule" x1="0" y1="0.5" x2="880" y2="0.5"/>
+  <text class="serif fg" x="0" y="78" font-size="54">Vamos <tspan class="accent" font-style="italic">conversar</tspan>?</text>
+</svg>
