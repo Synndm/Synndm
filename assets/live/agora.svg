@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="Madrugada em Belém, 00:58. Último push em Pokedex-test há 5 dias. 15 pushes nos últimos 14 dias.">
+  <defs>
+    <clipPath id="frame"><rect width="880" height="250" rx="18"/></clipPath>
+    <mask id="moon"><circle r="18" fill="#fff"/><circle cx="8" cy="-6" r="15" fill="#000"/></mask>
+    <clipPath id="sky"><rect width="300" height="250"/></clipPath>
+    <linearGradient id="skyg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05030F"/><stop offset=".65" stop-color="#1E1B4B"/><stop offset="1" stop-color="#312E81"/></linearGradient>
+    <linearGradient id="barg" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#C084FC"/></linearGradient>
+    <linearGradient id="fadeR" x1="0" x2="1"><stop offset=".7" stop-color="#0D0B16" stop-opacity="0"/><stop offset="1" stop-color="#0D0B16"/></linearGradient>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    .tw { animation: tw 3s ease-in-out infinite; }
+    @keyframes tw { 50% { opacity: .2; } }
+    .halo { animation: halo 4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes halo { 50% { transform: scale(1.25); opacity: .5; } }
+    .wave { animation: wave 6s ease-in-out infinite alternate; }
+    .wave2 { animation-duration: 8s; animation-direction: alternate-reverse; }
+    @keyframes wave { to { transform: translateX(-40px); } }
+    .bar { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0); animation: grow .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    @keyframes grow { to { transform: scaleY(1); } }
+    .live { animation: live 1.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes live { from { transform: scale(1); opacity: .9; } to { transform: scale(3); opacity: 0; } }
+    .in { opacity: 0; animation: in .6s ease-out forwards; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .25s; } .d3 { animation-delay: .4s; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .tw, .halo, .wave, .live { animation: none; } .bar { animation: none; transform: none; } .in { animation: none; opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="880" height="250" fill="#0D0B16"/>
+
+    <!-- céu de Belém -->
+    <g clip-path="url(#sky)">
+      <rect width="300" height="250" fill="url(#skyg)"/>
+      <circle class="tw" style="animation-delay:-0.00s" cx="276.2" cy="40.5" r="0.63" fill="#fff"/><circle class="tw" style="animation-delay:-2.19s" cx="159.8" cy="46.1" r="1.23" fill="#fff"/><circle class="tw" style="animation-delay:-2.27s" cx="162.9" cy="95.8" r="1.10" fill="#fff"/><circle class="tw" style="animation-delay:-2.45s" cx="72.6" cy="52.4" r="1.18" fill="#fff"/><circle class="tw" style="animation-delay:-2.09s" cx="16.2" cy="95.7" r="0.91" fill="#fff"/><circle class="tw" style="animation-delay:-2.77s" cx="242.2" cy="17.2" r="0.96" fill="#fff"/><circle class="tw" style="animation-delay:-2.77s" cx="206.6" cy="90.1" r="1.04" fill="#fff"/><circle class="tw" style="animation-delay:-2.74s" cx="272.5" cy="52.1" r="0.77" fill="#fff"/><circle class="tw" style="animation-delay:-2.51s" cx="99.7" cy="21.4" r="0.73" fill="#fff"/><circle class="tw" style="animation-delay:-1.29s" cx="88.5" cy="131.2" r="1.01" fill="#fff"/><circle class="tw" style="animation-delay:-2.19s" cx="263.4" cy="8.2" r="0.70" fill="#fff"/><circle class="tw" style="animation-delay:-1.68s" cx="152.6" cy="59.0" r="0.61" fill="#fff"/><circle class="tw" style="animation-delay:-2.73s" cx="16.5" cy="51.2" r="0.78" fill="#fff"/><circle class="tw" style="animation-delay:-1.99s" cx="277.3" cy="72.1" r="0.58" fill="#fff"/><circle class="tw" style="animation-delay:-1.22s" cx="85.1" cy="51.0" r="0.87" fill="#fff"/><circle class="tw" style="animation-delay:-1.00s" cx="159.5" cy="86.0" r="0.66" fill="#fff"/><circle class="tw" style="animation-delay:-2.72s" cx="137.4" cy="120.8" r="1.10" fill="#fff"/><circle class="tw" style="animation-delay:-1.90s" cx="154.9" cy="70.7" r="1.16" fill="#fff"/><circle class="tw" style="animation-delay:-2.82s" cx="119.0" cy="99.2" r="0.68" fill="#fff"/><circle class="tw" style="animation-delay:-1.76s" cx="105.2" cy="46.3" r="0.83" fill="#fff"/><circle class="tw" style="animation-delay:-2.38s" cx="263.3" cy="15.6" r="1.30" fill="#fff"/><circle class="tw" style="animation-delay:-0.23s" cx="122.0" cy="21.5" r="0.49" fill="#fff"/><circle class="tw" style="animation-delay:-2.99s" cx="66.0" cy="88.5" r="0.56" fill="#fff"/><circle class="tw" style="animation-delay:-1.37s" cx="177.9" cy="19.3" r="1.41" fill="#fff"/><circle class="tw" style="animation-delay:-2.65s" cx="267.2" cy="123.9" r="1.40" fill="#fff"/><circle class="tw" style="animation-delay:-2.28s" cx="82.6" cy="1.5" r="0.67" fill="#fff"/><circle class="tw" style="animation-delay:-0.23s" cx="0.5" cy="86.4" r="0.65" fill="#fff"/><circle class="tw" style="animation-delay:-2.22s" cx="146.8" cy="96.3" r="0.66" fill="#fff"/><circle class="tw" style="animation-delay:-2.65s" cx="70.5" cy="52.4" r="1.38" fill="#fff"/><circle class="tw" style="animation-delay:-0.36s" cx="146.8" cy="0.4" r="1.40" fill="#fff"/><circle class="tw" style="animation-delay:-1.91s" cx="276.6" cy="2.9" r="1.39" fill="#fff"/><circle class="tw" style="animation-delay:-0.56s" cx="290.6" cy="79.1" r="1.15" fill="#fff"/><circle class="tw" style="animation-delay:-0.80s" cx="66.8" cy="29.3" r="1.02" fill="#fff"/><circle class="tw" style="animation-delay:-0.16s" cx="230.8" cy="98.1" r="1.19" fill="#fff"/>
+      <g transform="translate(167.7 98.3)"><circle r="18" fill="#F5F3FF" mask="url(#moon)"/></g>
+      <path d="M0 176h18v-22h14v22h10v-40h20v40h8v-28h16v28h12v-52h22v52h10v-30h14v30h16v-18h12v18h20v-46h18v46h12v-26h16v26h20v-34h14v34h28V250H0z" fill="#07050F" fill-opacity=".85"/>
+      <g class="wave"><path d="M-40 196q20-8 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0V250H-40z" fill="#1E1B4B" fill-opacity=".9"/></g>
+      <g class="wave wave2"><path d="M-40 212q20-7 40 0t40 0 40 0 40 0 40 0 40 0 40 0 40 0 40 0V250H-40z" fill="#312E81" fill-opacity=".85"/></g>
+      <rect width="300" height="250" fill="url(#fadeR)"/>
+      <text class="mono" x="22" y="34" font-size="11" fill="#FFFFFF" fill-opacity=".75" letter-spacing="1.5">BELÉM, PA</text>
+      <text class="sans" x="22" y="70" font-size="34" font-weight="800" fill="#FFFFFF">00:58</text>
+    </g>
+
+    <!-- painel -->
+    <g class="in d1">
+      <circle cx="338" cy="36" r="4" fill="#EF4444"/>
+      <circle class="live" cx="338" cy="36" r="4" fill="#EF4444"/>
+      <text class="mono" x="352" y="40" font-size="11" fill="#F87171" letter-spacing="1.5">AO VIVO</text>
+      <text class="mono" x="840" y="40" font-size="11" fill="#52525B" text-anchor="end">atualiza a cada hora</text>
+      <text class="sans" x="330" y="80" font-size="26" font-weight="800" fill="#F4F4F5">Madrugada em Belém</text>
+    </g>
+
+    <g class="in d2">
+      <text class="mono" x="330" y="112" font-size="11" fill="#71717A">último push</text>
+      <text class="sans" x="330" y="134" font-size="17" font-weight="600" fill="#E9D5FF">Pokedex-test</text>
+      <text class="sans" x="330" y="152" font-size="12" fill="#A1A1AA">há 5 dias · TypeScript</text>
+
+      <text class="mono" x="610" y="112" font-size="11" fill="#71717A">pushes · 14 dias</text>
+      <text class="sans" x="610" y="140" font-size="26" font-weight="800" fill="#F4F4F5">15</text>
+
+      <text class="mono" x="740" y="112" font-size="11" fill="#71717A">repos</text>
+      <text class="sans" x="740" y="140" font-size="26" font-weight="800" fill="#F4F4F5">36</text>
+    </g>
+
+    <g class="in d3"><rect class="bar" style="animation-delay:0.00s" x="360.0" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.04s" x="394.7" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.08s" x="429.4" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.12s" x="464.1" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.16s" x="498.9" y="198.0" width="28.7" height="24.0" rx="3" fill="url(#barg)" fill-opacity="1"/><rect class="bar" style="animation-delay:0.20s" x="533.6" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.24s" x="568.3" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.28s" x="603.0" y="206.0" width="28.7" height="16.0" rx="3" fill="url(#barg)" fill-opacity="1"/><rect class="bar" style="animation-delay:0.32s" x="637.7" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.36s" x="672.4" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.40s" x="707.1" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.44s" x="741.9" y="158.0" width="28.7" height="64.0" rx="3" fill="url(#barg)" fill-opacity="1"/><rect class="bar" style="animation-delay:0.48s" x="776.6" y="220.0" width="28.7" height="2.0" rx="3" fill="#FFFFFF" fill-opacity="0.08"/><rect class="bar" style="animation-delay:0.52s" x="811.3" y="206.0" width="28.7" height="16.0" rx="3" fill="url(#barg)" fill-opacity="1"/></g>
+    <text class="mono" x="360" y="240" font-size="10" fill="#52525B">20/09</text>
+    <text class="mono" x="840" y="240" font-size="10" fill="#52525B" text-anchor="end">hoje</text>
+  </g>
+  <rect x=".5" y=".5" width="879" height="249" rx="17.5" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+</svg>
