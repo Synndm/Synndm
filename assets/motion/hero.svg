@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" role="img" aria-labelledby="t d">
+  <title id="t">Josiel Silva — Desenvolvedor Front-End</title>
+  <desc id="d">Primeira vaga conquistada. Desenvolvedor Front-End em Belém, PA, construindo interfaces modernas com React, Next.js e TypeScript.</desc>
+  <defs>
+    <linearGradient id="name" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="520" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#C084FC"/>
+      <stop offset=".5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#F472B6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="0 0; 520 0; 0 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="55"/></filter>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#FFFFFF" fill-opacity=".07"/></pattern>
+    <clipPath id="frame"><rect width="880" height="380" rx="20"/></clipPath>
+    <clipPath id="l1"><rect class="t l1" x="560" y="96" height="22" width="270"/></clipPath>
+    <clipPath id="l2"><rect class="t l2" x="560" y="118" height="22" width="270"/></clipPath>
+    <clipPath id="l3"><rect class="t l3" x="560" y="140" height="22" width="270"/></clipPath>
+    <clipPath id="l4"><rect class="t l4" x="560" y="162" height="22" width="270"/></clipPath>
+    <clipPath id="l5"><rect class="t l5" x="560" y="184" height="22" width="270"/></clipPath>
+    <clipPath id="l6"><rect class="t l6" x="560" y="206" height="22" width="270"/></clipPath>
+    <clipPath id="l7"><rect class="t l7" x="560" y="228" height="22" width="270"/></clipPath>
+    <clipPath id="l8"><rect class="t l8" x="560" y="272" height="22" width="270"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    .b1 { animation: drift1 14s ease-in-out infinite alternate; }
+    .b2 { animation: drift2 18s ease-in-out infinite alternate; }
+    .b3 { animation: drift3 16s ease-in-out infinite alternate; }
+    @keyframes drift1 { to { transform: translate(120px, 60px); } }
+    @keyframes drift2 { to { transform: translate(-160px, -50px); } }
+    @keyframes drift3 { to { transform: translate(-60px, 90px); } }
+    .in { opacity: 0; animation: in .7s cubic-bezier(.2,.7,.2,1) forwards; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .25s; } .d3 { animation-delay: .45s; } .d4 { animation-delay: .65s; } .d5 { animation-delay: .85s; }
+    @keyframes in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+    .float { animation: float 6s ease-in-out infinite; }
+    @keyframes float { 50% { transform: translateY(-8px); } }
+    .w { opacity: 0; animation: word 9s infinite; }
+    .w2 { animation-delay: 3s; } .w3 { animation-delay: 6s; }
+    @keyframes word { 0% { opacity: 0; transform: translateY(8px); } 4%, 30% { opacity: 1; transform: none; } 34%, 100% { opacity: 0; transform: translateY(-8px); } }
+    .t { transform: scaleX(0); transform-box: fill-box; transform-origin: left center; animation: type .45s steps(16, end) forwards; }
+    .l1 { animation-delay: .6s; animation-duration: .45s; }
+    .l2 { animation-delay: 1.05s; animation-duration: .45s; }
+    .l3 { animation-delay: 1.5s; animation-duration: .45s; }
+    .l4 { animation-delay: 1.95s; animation-duration: .55s; }
+    .l5 { animation-delay: 2.5s; animation-duration: .4s; }
+    .l6 { animation-delay: 2.9s; animation-duration: .45s; }
+    .l7 { animation-delay: 3.35s; animation-duration: .2s; }
+    .l8 { animation-delay: 3.7s; animation-duration: .5s; }
+    .caret { opacity: 0; animation: blink 1s steps(1) 4.2s infinite; }
+    @keyframes type { to { transform: scaleX(1); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .b1, .b2, .b3, .float, .caret { animation: none; }
+      .in { animation: none; opacity: 1; }
+      .t { animation: none; transform: none; }
+      .w { animation: none; } .w1 { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="880" height="380" fill="#0A0712"/>
+    <g filter="url(#blur)" opacity=".75">
+      <circle class="b1" cx="170" cy="110" r="130" fill="#7C3AED"/>
+      <circle class="b2" cx="720" cy="310" r="120" fill="#2563EB"/>
+      <circle class="b3" cx="520" cy="40" r="90" fill="#DB2777"/>
+    </g>
+    <rect width="880" height="380" fill="url(#dots)"/>
+  </g>
+  <rect x=".5" y=".5" width="879" height="379" rx="19.5" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+
+  <!-- status -->
+  <g class="in d1">
+    <rect x="48" y="48" width="226" height="30" rx="15" fill="#3FB950" fill-opacity=".12" stroke="#3FB950" stroke-opacity=".45"/>
+    <circle cx="66" cy="63" r="4" fill="#3FB950"/>
+    <circle cx="66" cy="63" r="4" fill="none" stroke="#3FB950" stroke-width="2">
+      <animate attributeName="r" values="4;11" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans" x="80" y="68" font-size="13" font-weight="600" fill="#7EE29A">primeira vaga conquistada</text>
+  </g>
+
+  <!-- nome -->
+  <text class="sans in d2" x="48" y="126" font-size="18" fill="#A1A1AA">Olá, eu sou</text>
+  <text class="sans in d3" x="45" y="192" font-size="64" font-weight="800" letter-spacing="-2" fill="url(#name)">Josiel Silva</text>
+  <text class="sans in d4" x="48" y="232" font-size="21" font-weight="600" fill="#E4E4E7">Desenvolvedor Front-End</text>
+
+  <!-- palavras girando -->
+  <g class="in d5">
+    <text class="mono" x="48" y="270" font-size="15" fill="#71717A">&gt; construindo</text>
+    <text class="mono w w1" x="178" y="270" font-size="15" fill="#C084FC">interfaces modernas</text>
+    <text class="mono w w2" x="178" y="270" font-size="15" fill="#60A5FA">experiências fluidas</text>
+    <text class="mono w w3" x="178" y="270" font-size="15" fill="#F472B6">produtos de verdade</text>
+  </g>
+
+  <!-- local + stack -->
+  <g class="in d5">
+    <path d="M54 311c0-4 3-7 7-7s7 3 7 7c0 5-7 12-7 12s-7-7-7-12z" fill="none" stroke="#A1A1AA" stroke-width="1.6"/>
+    <circle cx="61" cy="311" r="2.2" fill="#A1A1AA"/>
+    <text class="sans" x="76" y="318" font-size="14" fill="#A1A1AA">Belém, PA</text>
+    <text class="sans" x="160" y="318" font-size="14" fill="#52525B">·</text>
+    <text class="mono" x="176" y="318" font-size="13" fill="#A1A1AA">React · Next.js · TypeScript · Tailwind</text>
+  </g>
+
+  <!-- editor de código -->
+  <g class="float">
+    <rect x="540" y="52" width="300" height="270" rx="14" fill="#0D0B16" fill-opacity=".92" stroke="#FFFFFF" stroke-opacity=".1"/>
+    <circle cx="560" cy="72" r="5" fill="#FF5F57"/>
+    <circle cx="576" cy="72" r="5" fill="#FEBC2E"/>
+    <circle cx="592" cy="72" r="5" fill="#28C840"/>
+    <text class="mono" x="690" y="76" text-anchor="middle" font-size="11" fill="#71717A">josiel.ts</text>
+    <line x1="540" y1="88.5" x2="840" y2="88.5" stroke="#FFFFFF" stroke-opacity=".06"/>
+
+    <g class="mono" font-size="12.5" xml:space="preserve">
+      <text x="560" y="112" clip-path="url(#l1)"><tspan fill="#FF7AB2">const</tspan><tspan fill="#E4E4E7"> dev = {</tspan></text>
+      <text x="580" y="134" clip-path="url(#l2)"><tspan fill="#7DD3FC">nome</tspan><tspan fill="#A1A1AA">: </tspan><tspan fill="#FDE68A">"Josiel"</tspan><tspan fill="#A1A1AA">,</tspan></text>
+      <text x="580" y="156" clip-path="url(#l3)"><tspan fill="#7DD3FC">cidade</tspan><tspan fill="#A1A1AA">: </tspan><tspan fill="#FDE68A">"Belém"</tspan><tspan fill="#A1A1AA">,</tspan></text>
+      <text x="580" y="178" clip-path="url(#l4)"><tspan fill="#7DD3FC">stack</tspan><tspan fill="#A1A1AA">: [</tspan><tspan fill="#FDE68A">"React"</tspan><tspan fill="#A1A1AA">, </tspan><tspan fill="#FDE68A">"Next"</tspan><tspan fill="#A1A1AA">],</tspan></text>
+      <text x="580" y="200" clip-path="url(#l5)"><tspan fill="#7DD3FC">vaga</tspan><tspan fill="#A1A1AA">: </tspan><tspan fill="#C084FC">true</tspan><tspan fill="#A1A1AA">,</tspan></text>
+      <text x="580" y="222" clip-path="url(#l6)"><tspan fill="#7DD3FC">cafe</tspan><tspan fill="#A1A1AA">: </tspan><tspan fill="#C084FC">Infinity</tspan><tspan fill="#A1A1AA">,</tspan></text>
+      <text x="560" y="244" clip-path="url(#l7)"><tspan fill="#E4E4E7">};</tspan></text>
+      <text x="560" y="288" clip-path="url(#l8)"><tspan fill="#FF7AB2">export default</tspan><tspan fill="#E4E4E7"> dev;</tspan></text>
+    </g>
+    <rect class="caret" x="560" y="296" width="7" height="2" fill="#C084FC"/>
+  </g>
+</svg>

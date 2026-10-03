@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="250" viewBox="0 0 430 250" role="img" aria-label="busca-pokemons: Pokédex full stack com PokéAPI e back-end próprio. React, TypeScript, Node.">
+  <defs>
+    <clipPath id="c"><rect width="430" height="250" rx="16"/></clipPath>
+    <radialGradient id="glow" cx=".3" cy=".3" r=".7"><stop offset="0" stop-color="#EF4444" stop-opacity=".35"/><stop offset="1" stop-color="#EF4444" stop-opacity="0"/></radialGradient>
+    <clipPath id="type"><rect class="ty" x="196" y="48" height="30" width="90"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    .ball { transform-origin: 104px 66px; animation: wobble 2.4s ease-in-out infinite; }
+    @keyframes wobble { 0%, 60%, 100% { transform: rotate(0); } 70% { transform: rotate(-14deg); } 80% { transform: rotate(12deg); } 90% { transform: rotate(-6deg); } }
+    .ty { transform: scaleX(0); transform-box: fill-box; transform-origin: left center; animation: ty 4s steps(1) infinite; }
+    @keyframes ty { 0%,10% { transform: scaleX(0); } 15% { transform: scaleX(.14); } 20% { transform: scaleX(.28); } 25% { transform: scaleX(.43); } 30% { transform: scaleX(.57); } 35% { transform: scaleX(.71); } 40%,85% { transform: scaleX(1); } 100% { transform: scaleX(0); } }
+    .res { opacity: 0; animation: res 4s infinite; }
+    .r2 { animation-delay: .15s; } .r3 { animation-delay: .3s; }
+    @keyframes res { 0%, 40% { opacity: 0; transform: translateY(6px); } 48%, 85% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .ball { animation: none; } .res { animation: none; opacity: 1; } .ty { animation: none; transform: none; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="430" height="250" fill="#0D0B16"/>
+    <rect width="430" height="250" fill="url(#glow)"/>
+
+    <g class="ball">
+      <circle cx="104" cy="66" r="38" fill="#F4F4F5"/>
+      <path d="M66 66a38 38 0 0 1 76 0z" fill="#EF4444"/>
+      <rect x="66" y="62" width="76" height="8" fill="#18181B"/>
+      <circle cx="104" cy="66" r="12" fill="#18181B"/>
+      <circle cx="104" cy="66" r="7" fill="#F4F4F5"/>
+    </g>
+
+    <rect x="180" y="44" width="220" height="36" rx="18" fill="#18181B" stroke="#FFFFFF" stroke-opacity=".12"/>
+    <circle cx="200" cy="61" r="6" fill="none" stroke="#A1A1AA" stroke-width="1.8"/>
+    <line x1="204.5" y1="65.5" x2="209" y2="70" stroke="#A1A1AA" stroke-width="1.8" stroke-linecap="round"/>
+    <text class="mono" x="218" y="67" font-size="14" fill="#F4F4F5" clip-path="url(#type)">pikachu</text>
+
+    <g class="mono" font-size="11" fill="#A1A1AA">
+      <g class="res r1"><rect x="180" y="90" width="66" height="22" rx="11" fill="#FACC15" fill-opacity=".15"/><text x="213" y="105" text-anchor="middle" fill="#FDE047">#025</text></g>
+      <g class="res r2"><rect x="254" y="90" width="72" height="22" rx="11" fill="#FACC15" fill-opacity=".15"/><text x="290" y="105" text-anchor="middle" fill="#FDE047">elétrico</text></g>
+      <g class="res r3"><rect x="334" y="90" width="66" height="22" rx="11" fill="#FFFFFF" fill-opacity=".06"/><text x="367" y="105" text-anchor="middle">0.4 m</text></g>
+    </g>
+
+    <text class="mono" x="28" y="158" font-size="11" fill="#F87171" letter-spacing="1">01 · FULL STACK</text>
+    <text class="sans" x="28" y="186" font-size="22" font-weight="700" fill="#F4F4F5">busca-pokemons</text>
+    <text class="sans" x="28" y="210" font-size="13" fill="#A1A1AA">Pokédex com PokéAPI e back-end próprio no Render.</text>
+    <text class="mono" x="28" y="232" font-size="11" fill="#71717A">react · typescript · node</text>
+  </g>
+  <rect x=".5" y=".5" width="429" height="249" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <circle cx="398" cy="158" r="14" fill="#FFFFFF" fill-opacity=".06"/>
+  <path d="M393 163l10-10M396 153h7v7" fill="none" stroke="#E4E4E7" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

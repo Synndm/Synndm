@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="64" viewBox="0 0 880 64" role="img" aria-label="Stack: React, Next.js, TypeScript, JavaScript, Tailwind, Sass, HTML, CSS, Node.js, Express, Java, Git, Vercel, Figma">
+  <defs>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".1" stop-color="#fff"/>
+      <stop offset=".9" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <mask id="m"><rect width="880" height="64" fill="url(#fade)"/></mask>
+    <g id="set" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600">
+      <g transform="translate(0 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#61DAFB"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">React</text></g>
+      <g transform="translate(132 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#FFFFFF"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Next.js</text></g>
+      <g transform="translate(264 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#3178C6"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">TypeScript</text></g>
+      <g transform="translate(396 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#F7DF1E"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">JavaScript</text></g>
+      <g transform="translate(528 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#38BDF8"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Tailwind</text></g>
+      <g transform="translate(660 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#CC6699"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Sass</text></g>
+      <g transform="translate(792 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#E34F26"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">HTML</text></g>
+      <g transform="translate(924 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#1572B6"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">CSS</text></g>
+      <g transform="translate(1056 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#5FA04E"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Node.js</text></g>
+      <g transform="translate(1188 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#A1A1AA"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Express</text></g>
+      <g transform="translate(1320 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#C084FC" stroke-opacity=".6" stroke-dasharray="4 3"/><circle cx="22" cy="32" r="4.5" fill="#F89820"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Java</text></g>
+      <g transform="translate(1452 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#F05032"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Git</text></g>
+      <g transform="translate(1584 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#FFFFFF"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Vercel</text></g>
+      <g transform="translate(1716 0)"><rect x=".5" y="14.5" width="119" height="35" rx="17.5" fill="#0D0B16" stroke="#FFFFFF" stroke-opacity=".12"/><circle cx="22" cy="32" r="4.5" fill="#A259FF"/><text x="68" y="37" text-anchor="middle" fill="#E4E4E7">Figma</text></g>
+    </g>
+  </defs>
+  <style>
+    .track { animation: scroll 32s linear infinite; }
+    @keyframes scroll { to { transform: translateX(-1848px); } }
+    @media (prefers-reduced-motion: reduce) { .track { animation: none; } }
+  </style>
+  <g mask="url(#m)">
+    <g class="track">
+      <use href="#set"/>
+      <use href="#set" x="1848"/>
+    </g>
+  </g>
+</svg>

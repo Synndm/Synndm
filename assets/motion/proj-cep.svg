@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="250" viewBox="0 0 430 250" role="img" aria-label="Buscador de Endereço: endereço automático pelo CEP com ViaCEP. HTML, SCSS, jQuery.">
+  <defs>
+    <clipPath id="c"><rect width="430" height="250" rx="16"/></clipPath>
+    <radialGradient id="glow" cx=".5" cy=".3" r=".6"><stop offset="0" stop-color="#3B82F6" stop-opacity=".3"/><stop offset="1" stop-color="#3B82F6" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#60A5FA" stroke-opacity=".12"/></pattern>
+    <linearGradient id="fadeY" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <mask id="m"><rect width="430" height="135" fill="url(#fadeY)"/></mask>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    .pin { animation: bounce 2s cubic-bezier(.3,0,.3,1) infinite; }
+    @keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
+    .shadow { transform-origin: 215px 112px; animation: sh 2s cubic-bezier(.3,0,.3,1) infinite; }
+    @keyframes sh { 50% { transform: scale(.6); opacity: .4; } }
+    .route { stroke-dasharray: 6 8; animation: dash 1.2s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -28; } }
+    @media (prefers-reduced-motion: reduce) { .pin, .shadow, .route { animation: none; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="430" height="250" fill="#070B14"/>
+    <rect width="430" height="135" fill="url(#grid)" mask="url(#m)"/>
+    <rect width="430" height="250" fill="url(#glow)"/>
+
+    <path class="route" d="M40 100C110 60 150 120 215 108S330 50 400 80" fill="none" stroke="#60A5FA" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="215" cy="112" r="10" fill="none" stroke="#60A5FA">
+      <animate attributeName="r" values="6;26" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse class="shadow" cx="215" cy="112" rx="10" ry="3.5" fill="#000" fill-opacity=".6"/>
+    <g class="pin">
+      <path d="M215 108s-20-20-20-36a20 20 0 0 1 40 0c0 16-20 36-20 36z" fill="#3B82F6"/>
+      <circle cx="215" cy="72" r="7" fill="#070B14"/>
+    </g>
+
+    <rect x="286" y="24" width="120" height="30" rx="8" fill="#0F172A" stroke="#60A5FA" stroke-opacity=".35"/>
+    <text class="mono" x="346" y="44" text-anchor="middle" font-size="13" fill="#BFDBFE">66.000-000</text>
+
+    <text class="mono" x="28" y="158" font-size="11" fill="#60A5FA" letter-spacing="1">03 · API</text>
+    <text class="sans" x="28" y="186" font-size="22" font-weight="700" fill="#F4F4F5">Buscador de Endereço</text>
+    <text class="sans" x="28" y="210" font-size="13" fill="#A1A1AA">Preenche o endereço pelo CEP usando a ViaCEP.</text>
+    <text class="mono" x="28" y="232" font-size="11" fill="#71717A">html · scss · jquery</text>
+  </g>
+  <rect x=".5" y=".5" width="429" height="249" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <circle cx="398" cy="158" r="14" fill="#FFFFFF" fill-opacity=".06"/>
+  <path d="M393 163l10-10M396 153h7v7" fill="none" stroke="#E4E4E7" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

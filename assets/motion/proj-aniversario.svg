@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="250" viewBox="0 0 430 250" role="img" aria-label="Landing Page de Aniversário: estética cyberpunk com contagem regressiva em tempo real. Next.js, Tailwind, Framer Motion.">
+  <defs>
+    <clipPath id="c"><rect width="430" height="250" rx="16"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1A0726"/><stop offset="1" stop-color="#03141A"/></linearGradient>
+    <filter id="neon" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>
+    .sans { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+    .mono { font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace; }
+    .flicker { animation: flicker 4s infinite; }
+    @keyframes flicker { 0%, 18%, 22%, 62%, 64%, 100% { opacity: 1; } 20%, 63% { opacity: .35; } }
+    .s { opacity: 0; animation: tick 10s steps(1) infinite; }
+    .s1 { animation-delay: -9s; } .s2 { animation-delay: -8s; } .s3 { animation-delay: -7s; } .s4 { animation-delay: -6s; }
+    .s5 { animation-delay: -5s; } .s6 { animation-delay: -4s; } .s7 { animation-delay: -3s; } .s8 { animation-delay: -2s; } .s9 { animation-delay: -1s; }
+    @keyframes tick { 0% { opacity: 1; } 10%, 100% { opacity: 0; } }
+    .scan { animation: scan 3s linear infinite; }
+    @keyframes scan { from { transform: translateY(-20px); } to { transform: translateY(140px); } }
+    @media (prefers-reduced-motion: reduce) { .flicker, .scan { animation: none; } .s { animation: none; } .s0 { opacity: 1; } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="430" height="250" fill="url(#bg)"/>
+    <g stroke="#F472B6" stroke-opacity=".15">
+      <line x1="0" y1="118" x2="430" y2="118"/><line x1="0" y1="128" x2="430" y2="128"/>
+      <line x1="215" y1="118" x2="40" y2="140"/><line x1="215" y1="118" x2="390" y2="140"/>
+    </g>
+    <rect class="scan" x="0" y="0" width="430" height="2" fill="#22D3EE" fill-opacity=".25"/>
+
+    <g class="mono flicker" font-size="40" font-weight="700" text-anchor="middle" filter="url(#neon)">
+      <text x="120" y="82" fill="#F472B6">07</text>
+      <text x="168" y="80" fill="#F472B6" font-size="32">:</text>
+      <text x="215" y="82" fill="#F472B6">12</text>
+      <text x="262" y="80" fill="#F472B6" font-size="32">:</text>
+      <text x="300" y="82" fill="#22D3EE">4</text>
+      <g fill="#22D3EE">
+        <text class="s s0" x="324" y="82">9</text><text class="s s1" x="324" y="82">8</text><text class="s s2" x="324" y="82">7</text>
+        <text class="s s3" x="324" y="82">6</text><text class="s s4" x="324" y="82">5</text><text class="s s5" x="324" y="82">4</text>
+        <text class="s s6" x="324" y="82">3</text><text class="s s7" x="324" y="82">2</text><text class="s s8" x="324" y="82">1</text>
+        <text class="s s9" x="324" y="82">0</text>
+      </g>
+    </g>
+    <g class="mono" font-size="10" fill="#A1A1AA" text-anchor="middle" letter-spacing="2">
+      <text x="120" y="104">DIAS</text><text x="215" y="104">HORAS</text><text x="312" y="104">SEG</text>
+    </g>
+
+    <text class="mono" x="28" y="158" font-size="11" fill="#F472B6" letter-spacing="1">04 · LANDING PAGE</text>
+    <text class="sans" x="28" y="186" font-size="22" font-weight="700" fill="#F4F4F5">Aniversário Cyberpunk</text>
+    <text class="sans" x="28" y="210" font-size="13" fill="#A1A1AA">Contagem regressiva em tempo real e animações.</text>
+    <text class="mono" x="28" y="232" font-size="11" fill="#71717A">next.js · tailwind · framer motion</text>
+  </g>
+  <rect x=".5" y=".5" width="429" height="249" rx="15.5" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+  <circle cx="398" cy="158" r="14" fill="#FFFFFF" fill-opacity=".06"/>
+  <path d="M393 163l10-10M396 153h7v7" fill="none" stroke="#E4E4E7" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
