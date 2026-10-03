@@ -7,6 +7,8 @@
 
 </div>
 
+<img src="./assets/live/agora.svg" width="100%" alt="Painel ao vivo: horário de Belém, último push e atividade dos últimos 14 dias. Atualizado a cada hora." />
+
 ## Projetos
 
 <sub>Clique em um card para abrir o projeto.</sub>
